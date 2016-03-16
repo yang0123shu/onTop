@@ -13,6 +13,7 @@
 		A50691401C917B18005456C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A506913E1C917B18005456C6 /* Main.storyboard */; };
 		A50691421C917B18005456C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50691411C917B18005456C6 /* Assets.xcassets */; };
 		A50691451C917B18005456C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50691431C917B18005456C6 /* LaunchScreen.storyboard */; };
+		A5090ECE1C993C0500990BF4 /* libDoubanApiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5090ECD1C993C0500990BF4 /* libDoubanApiEngine.framework */; };
 		A5176FBC1C91B5DA005673E7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5176FBB1C91B5DA005673E7 /* libxml2.tbd */; };
 		A5176FBE1C91B5DF005673E7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5176FBD1C91B5DF005673E7 /* libz.tbd */; };
 		A5176FC01C91B5E5005673E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5176FBF1C91B5E5005673E7 /* CoreGraphics.framework */; };
@@ -24,8 +25,8 @@
 		A5176FCC1C91B60E005673E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5176FCB1C91B60E005673E7 /* Foundation.framework */; };
 		A517724E1C91C936005673E7 /* onTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517724D1C91C936005673E7 /* onTopTests.swift */; };
 		A517725C1C91C943005673E7 /* onTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517725B1C91C943005673E7 /* onTopUITests.swift */; };
-		A51772651C91CBCD005673E7 /* fe.m in Sources */ = {isa = PBXBuildFile; fileRef = A51772641C91CBCD005673E7 /* fe.m */; };
-		A51772671C91CC69005673E7 /* libDoubanApiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51772661C91CC69005673E7 /* libDoubanApiEngine.framework */; };
+		A53E40621C99B346009000C9 /* fe.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E40611C99B346009000C9 /* fe.m */; };
+		A53E40651C99B365009000C9 /* OCTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E40641C99B365009000C9 /* OCTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A50691411C917B18005456C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A50691441C917B18005456C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A50691461C917B18005456C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5090ECD1C993C0500990BF4 /* libDoubanApiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libDoubanApiEngine.framework; path = libs/libDoubanApiEngine.framework; sourceTree = "<group>"; };
 		A5176FBB1C91B5DA005673E7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		A5176FBD1C91B5DF005673E7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A5176FBF1C91B5E5005673E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,9 +71,10 @@
 		A51772591C91C943005673E7 /* onTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A517725B1C91C943005673E7 /* onTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTopUITests.swift; sourceTree = "<group>"; };
 		A517725D1C91C943005673E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A51772631C91CBCC005673E7 /* onTop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "onTop-Bridging-Header.h"; sourceTree = "<group>"; };
-		A51772641C91CBCD005673E7 /* fe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fe.m; sourceTree = "<group>"; };
-		A51772661C91CC69005673E7 /* libDoubanApiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libDoubanApiEngine.framework; sourceTree = "<group>"; };
+		A53E40601C99B345009000C9 /* onTop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "onTop-Bridging-Header.h"; sourceTree = "<group>"; };
+		A53E40611C99B346009000C9 /* fe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fe.m; sourceTree = "<group>"; };
+		A53E40631C99B365009000C9 /* OCTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTestClass.h; sourceTree = "<group>"; };
+		A53E40641C99B365009000C9 /* OCTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +82,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5090ECE1C993C0500990BF4 /* libDoubanApiEngine.framework in Frameworks */,
 				A5176FCC1C91B60E005673E7 /* Foundation.framework in Frameworks */,
 				A5176FCA1C91B605005673E7 /* UIKit.framework in Frameworks */,
 				A5176FC81C91B600005673E7 /* MobileCoreServices.framework in Frameworks */,
 				A5176FC61C91B5F8005673E7 /* SystemConfiguration.framework in Frameworks */,
-				A51772671C91CC69005673E7 /* libDoubanApiEngine.framework in Frameworks */,
 				A5176FC41C91B5F1005673E7 /* Security.framework in Frameworks */,
 				A5176FC21C91B5EA005673E7 /* CFNetwork.framework in Frameworks */,
 				A5176FC01C91B5E5005673E7 /* CoreGraphics.framework in Frameworks */,
@@ -140,8 +143,10 @@
 				A50691411C917B18005456C6 /* Assets.xcassets */,
 				A50691431C917B18005456C6 /* LaunchScreen.storyboard */,
 				A50691461C917B18005456C6 /* Info.plist */,
-				A51772641C91CBCD005673E7 /* fe.m */,
-				A51772631C91CBCC005673E7 /* onTop-Bridging-Header.h */,
+				A53E40611C99B346009000C9 /* fe.m */,
+				A53E40631C99B365009000C9 /* OCTestClass.h */,
+				A53E40641C99B365009000C9 /* OCTestClass.m */,
+				A53E40601C99B345009000C9 /* onTop-Bridging-Header.h */,
 			);
 			path = onTop;
 			sourceTree = "<group>";
@@ -149,7 +154,7 @@
 		A5176FD11C91BE1D005673E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A51772661C91CC69005673E7 /* libDoubanApiEngine.framework */,
+				A5090ECD1C993C0500990BF4 /* libDoubanApiEngine.framework */,
 				A5176FCB1C91B60E005673E7 /* Foundation.framework */,
 				A5176FC91C91B605005673E7 /* UIKit.framework */,
 				A5176FC71C91B600005673E7 /* MobileCoreServices.framework */,
@@ -314,8 +319,9 @@
 			files = (
 				A506913D1C917B18005456C6 /* SecondViewController.swift in Sources */,
 				A50691391C917B18005456C6 /* AppDelegate.swift in Sources */,
-				A51772651C91CBCD005673E7 /* fe.m in Sources */,
+				A53E40621C99B346009000C9 /* fe.m in Sources */,
 				A506913B1C917B18005456C6 /* FirstViewController.swift in Sources */,
+				A53E40651C99B365009000C9 /* OCTestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,21 +465,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/onTop/**",
-					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/libs",
 				);
 				HEADER_SEARCH_PATHS = (
 					"${SDK_DIR}/usr/include/libxml2",
-					"$(PROJECT_DIR)/libDoubanApiEngine.framework/Headers/**",
+					"$(PROJECT_DIR)/libs/libDoubanApiEngine.framework/Headers/",
 				);
 				INFOPLIST_FILE = onTop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -483,6 +490,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "onTop/onTop-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -490,21 +498,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/onTop/**",
-					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/libs",
 				);
 				HEADER_SEARCH_PATHS = (
 					"${SDK_DIR}/usr/include/libxml2",
-					"$(PROJECT_DIR)/libDoubanApiEngine.framework/Headers/**",
+					"$(PROJECT_DIR)/libs/libDoubanApiEngine.framework/Headers/",
 				);
 				INFOPLIST_FILE = onTop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -513,6 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "onTop/onTop-Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};

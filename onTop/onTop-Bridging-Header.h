@@ -3,8 +3,7 @@
 //
 
 
-@class DOUService
+#import "OCTestClass.h"
+#import "DOUAPIEngine.h"
 
-#import "DOUService.h"
 
-#import "DOUQuery.h"

@@ -17,6 +17,9 @@ class FirstViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        let testClass = OCTestClass()
+        testClass.testLog("hello")
+        
         let bookId:NSInteger = 1220562
         let subPath = NSString(format: "/book/subject/%d", bookId)
         let query:DOUQuery = DOUQuery(subPath: subPath as String, parameters: nil)

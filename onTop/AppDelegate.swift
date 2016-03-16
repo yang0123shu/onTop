@@ -19,15 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        let service:DOUService = DOUService()
-        service.clientId = kAPIKey;
-        service.clientSecret = kPrivateKey;
-        if (service.isValid()) {
-            service.apiBaseUrlString = kHttpsApiBaseUrl;
-        }
-        else {
-            service.apiBaseUrlString = kHttpApiBaseUrl;
-        }
+//        let service:DOUService = DOUService()
+//        service.clientId = kAPIKey;
+//        service.clientSecret = kPrivateKey;
+//        if (service.isValid()) {
+//            service.apiBaseUrlString = kHttpsApiBaseUrl;
+//        }
+//        else {
+//            service.apiBaseUrlString = kHttpApiBaseUrl;
+//        }
         
         
         
